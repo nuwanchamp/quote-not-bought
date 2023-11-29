@@ -1,0 +1,240 @@
+{
+    "TravelPolicyPrice": {},
+    "Affiliate": {
+        "Affiliate": "direct"
+    },
+    "PolicyHolderDetails": {
+        "age": 34,
+        "dateofBirth": "17/07/1989",
+        "PhoneDaytime": "3598755632",
+        "EmailAddress": "janvitha.kandula@rockinsurance.com",
+        "wantMarketingConsent": true,
+        "Postzip": "M20 2DN",
+        "TownCity": "Manchester",
+        "AddressLineOne": "656 Wilmslow Road",
+        "AddressLineTwo": "",
+        "WantsEmailUpdates": true,
+        "firstName": "test",
+        "lastName": "test1",
+        "title": "Miss",
+        "Country": "United Kingdom"
+    },
+    "selectedTravelProduct": {
+        "TravelProductId": 11223,
+        "TravelProductName": "Standard",
+        "productReferenceId": "590857",
+        "TravelProductPrice": 5.06
+    },
+    "selectedOptionalProduct": null,
+    "IPIDDoc": {
+        "travelIPID": "https://travelinsurance.tescobank.com/branding/allipid/docs/PW20091-Tesco-Bank-Direct-v3.pdf",
+        "gadgetIPID": "https://travelinsurance.tescobank.com/branding/allipid/docs/InsureforDirectIPID20056C.pdf",
+        "PolicyWording": "https://travelinsurance.tescobank.com/Branding/allpwps/docs/PW20091-Tesco-Bank-Direct-v3.pdf",
+        "TermsOfBusiness": "https://travelinsurance.tescobank.com/branding/allipid/docs/TOBInsurefor.pdf",
+        "safiIPID": "https://travelinsurance.tescobank.com/branding/allipid/docs/"
+    },
+    "healixResponse": {
+        "wantLinkedConditions": false,
+        "GetHealixUrlsResponse": {
+            "GetHealixUrlsResponseTravellers": [
+                {
+                    "Day": 17,
+                    "DeclarantId": null,
+                    "FirstName": "test",
+                    "HealixHashCode": "1889241444",
+                    "HealixURL": "https://hrrdemo.verisk.com/ScreeningLibraryDemo25AA/QkIyNVJvY2tUZXNjb0Jhbms=/1889241444",
+                    "Id": 48845,
+                    "LastName": "test1",
+                    "MedicalScreening": {
+                        "Id": 68359,
+                        "Token": "91020171-f781-4d62-8ec7-140868bd4799"
+                    },
+                    "Month": 7,
+                    "Title": "Miss",
+                    "Year": 1989
+                }
+            ],
+            "MedicalScreeningBothSTandAMT": {
+                "MedicalScreeningId": 68360,
+                "Token": "32c52195-4f4b-4db8-8df6-c8eba092ceb4",
+                "TripTypeId": 2,
+                "TravellerId": 68339
+            },
+            "OperationResult": {
+                "Message": "rnrn",
+                "Status": 0
+            }
+        },
+        "HealixData": [
+            {
+                "TravellerId": 48845,
+                "DOB": "17/07/1989",
+                "Day": 17,
+                "Month": 7,
+                "Year": 1989,
+                "MedicalScreeningId": 68359,
+                "URL": "https://hrrdemo.verisk.com/ScreeningLibraryDemo25AA/QkIyNVJvY2tUZXNjb0Jhbms=/1889241444",
+                "HashCode": "1889241444",
+                "HasCompleted": false,
+                "TravellerName": "Miss test test1",
+                "IsRescreen": false,
+                "Title": "Miss",
+                "FirstName": "test",
+                "LastName": "test1",
+                "Token": "91020171-f781-4d62-8ec7-140868bd4799",
+                "Address1": null,
+                "Address2": null,
+                "Address3": null,
+                "Address4": null,
+                "Telephone": null,
+                "Email": null,
+                "Mobile": null,
+                "Postcode": null,
+                "Country": null,
+                "TravelAgentId": 1223,
+                "TravelProductId": 11223,
+                "TravelDestinationName": "Europe",
+                "TravelCountryISOList": "GB",
+                "TravelCountries": "United Kingdom",
+                "EndorsementCodes": null,
+                "MedicalScreeningStatus": null,
+                "HealixSTAMTScreeningId": 0
+            }
+        ],
+        "Id": 0
+    },
+    "medicalScreening": {
+        "noofTravellersLeft": 0,
+        "HealixTravellerNexttoDisplay": 1
+    },
+    "selectedGadgetPrice": null,
+    "Area": "Europe",
+    "isoList": "GB",
+    "DestinationCountries": [
+        {
+            "CountryDestinationCodeMappingId": 9100,
+            "CountryDestinationCodeMappingSetId": 37,
+            "Country": "United Kingdom",
+            "MSMCode": "336",
+            "DestinationCode": "AreaOne",
+            "CountryCodeISO3166Alpha2": "GB",
+            "CountryCodeISO3166Alpha3": "GBR",
+            "IdolCountryCode": null,
+            "CountryMasterId": 257
+        }
+    ],
+    "Countries": "United Kingdom",
+    "triptypeId": 1,
+    "triptype": "SingleTrip",
+    "startDate": "26/11/2023",
+    "endDate": "30/11/2023",
+    "GroupType": "Individual",
+    "QuoteReferenceGuid": "fab7abef-2298-0c31-0b62-bb65ec83a040",
+    "TravellerQuantity": 1,
+    "ClubCardNumber": "",
+    "EmpNumber": "",
+    "isClubcardStaff": false,
+    "Travellers": [
+        {
+            "firstName": "test",
+            "lastName": "test1",
+            "title": "Miss",
+            "age": 34,
+            "dateofBirth": "17/07/1989",
+            "optedForMedical": true,
+            "medicalToken": "91020171-f781-4d62-8ec7-140868bd4799",
+            "healixResponse": {
+                "wantLinkedConditions": false,
+                "GetHealixUrlsResponse": {
+                    "GetHealixUrlsResponseTravellers": [
+                        {
+                            "Day": 17,
+                            "DeclarantId": null,
+                            "FirstName": "test",
+                            "HealixHashCode": "1889241444",
+                            "HealixURL": "https://hrrdemo.verisk.com/ScreeningLibraryDemo25AA/QkIyNVJvY2tUZXNjb0Jhbms=/1889241444",
+                            "Id": 48845,
+                            "LastName": "test1",
+                            "MedicalScreening": {
+                                "Id": 68359,
+                                "Token": "91020171-f781-4d62-8ec7-140868bd4799"
+                            },
+                            "Month": 7,
+                            "Title": "Miss",
+                            "Year": 1989
+                        }
+                    ],
+                    "MedicalScreeningBothSTandAMT": {
+                        "MedicalScreeningId": 68360,
+                        "Token": "32c52195-4f4b-4db8-8df6-c8eba092ceb4",
+                        "TripTypeId": 2,
+                        "TravellerId": 68339
+                    },
+                    "OperationResult": {
+                        "Message": "rnrn",
+                        "Status": 0
+                    }
+                },
+                "HealixData": [
+                    {
+                        "TravellerId": 48845,
+                        "DOB": "17/07/1989",
+                        "Day": 17,
+                        "Month": 7,
+                        "Year": 1989,
+                        "MedicalScreeningId": 68359,
+                        "URL": "https://hrrdemo.verisk.com/ScreeningLibraryDemo25AA/QkIyNVJvY2tUZXNjb0Jhbms=/1889241444",
+                        "HashCode": "1889241444",
+                        "HasCompleted": false,
+                        "TravellerName": "Miss test test1",
+                        "IsRescreen": false,
+                        "Title": "Miss",
+                        "FirstName": "test",
+                        "LastName": "test1",
+                        "Token": "91020171-f781-4d62-8ec7-140868bd4799",
+                        "Address1": null,
+                        "Address2": null,
+                        "Address3": null,
+                        "Address4": null,
+                        "Telephone": null,
+                        "Email": null,
+                        "Mobile": null,
+                        "Postcode": null,
+                        "Country": null,
+                        "TravelAgentId": null,
+                        "TravelProductId": null,
+                        "TravelDestinationName": null,
+                        "TravelCountryISOList": null,
+                        "TravelCountries": null,
+                        "EndorsementCodes": null,
+                        "MedicalScreeningStatus": null,
+                        "HealixSTAMTScreeningId": 0
+                    }
+                ],
+                "Id": 0
+            },
+            "medicalPrice": 0
+        }
+    ],
+    "WantMedicalScreening": true,
+    "userId": 1223,
+    "OriginId": 1,
+    "defaultAgentBrandingId": 0,
+    "WinterSports": false,
+    "CruiseCover": false,
+    "golfCover": false,
+    "selectedCoverOptions": [
+        {
+            "CoverOptionCode": "LB1",
+            "CoverOptionName": "7"
+        },
+        {
+            "CoverOptionCode": "LB2",
+            "CoverOptionName": "89"
+        }
+    ],
+    "PaymentPrice": 5.06,
+    "storeQuote": false,
+    "GUID": "c357cdf7-dcb7-412e-89a1-0a3d205faaa1",
+    "medicalPrice": 0
+}
